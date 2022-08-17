@@ -34,7 +34,7 @@ input, select {
 }
 
 input:valid {
-    border-color: lightgreen;
+    border: 2px solid lightgreen;
 }
 
 .button>p>a {
