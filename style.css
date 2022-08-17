@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    gap: 30px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.summary>h3 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.inputs>h2, p {
+    margin: 5px;
+}
+
+.left {
+    background-color: #cccccc;
+    background-image: url("background.jpg");
+    background-size: cover;
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.summary {
+    height: 200px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.firstname, .lastname, .email,
+.phone, .membership {
+    display: flex;
+    flex-direction: column;
+}
+
