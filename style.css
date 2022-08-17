@@ -134,3 +134,47 @@ input:valid {
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 850px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        display: block;
+        overflow: auto;
+        flex-direction: column;
+    }
+
+    .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding-top: 10px;
+        flex: auto;
+        overflow: auto;
+    }
+
+    .inputs>p {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction:column;
+        padding-bottom: 20px;
+    }
+
+    .summary {
+        text-align: center;
+    }
+
+    .button {
+        align-items: center;
+    }
+
+}
