@@ -155,6 +155,7 @@ input:valid {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 0;
         padding-top: 2em;
         flex: auto;
         overflow: auto;
